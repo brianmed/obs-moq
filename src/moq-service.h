@@ -3,10 +3,10 @@
 #include <obs-module.h>
 
 struct MoQService {
-    // TODO: Define needed params to connect to a relay
+	// TODO: Define needed params to connect to a relay
 	std::string server;
 	std::string token;
-    std::string stream_name;
+	std::string stream_name;
 
 	MoQService(obs_data_t *settings, obs_service_t *service);
 
